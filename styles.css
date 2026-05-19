@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.timer {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .disabled-form {
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.container input[type="submit"]{
+    margin: 10px auto;
+}
+#timer{
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.file-list {
+    list-style-type: none;
+    padding: 0;    
+    text-align: left;   /* Biar rata kiri */
+    margin-left: 80px;  /* Jarak kiri biar enak dilihat */
+
+}
+
+.file-list li {
+    margin: 10px 0;
+    font-size: 15px;
+    padding: 4px 6px;
+    transition: background 0.3s;
+}
+
+.file-list li:hover {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    cursor: pointer;
+}
+p {
+    font-size: 16px;
+    color: #333;
+}
+.message {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.custom-file-btn {
+  display: inline-block;
+  background: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+.custom-file-btn:hover {
+  background: #45a049;
+}
+
+#fileName {
+  margin-left: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-back {
+    display: block;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    width: 80px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px 10px;
+}
+
+#progressContainer {
+      width: 100%;
+      background-color: #eee;
+      border-radius: 10px;
+      margin: 10px 0;
+      height: 20px;
+      overflow: hidden;
+    }
+
+    #progressBar {
+      height: 100%;
+      width: 100%;
+      background-color: #4caf50;
+      transition: width 1s linear;
+    }
+
+    .disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
